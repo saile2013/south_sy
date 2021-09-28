@@ -6,3 +6,6 @@ senha: 12345
 
 
 npm install para instalar as dependencias e npm start para rodar.
+
+
+Obs: por ser um teste simples, usei o styled component, mas gosto de usar o pré processador smacss.
