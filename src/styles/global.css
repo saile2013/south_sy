@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../assets/fonts/roboto-v27-latin-regular.eot');
+    src: local(''),
+            url('../assets/fonts/roboto-v27-latin-regular.eot?#iefix') format('embedded-opentype'),
+            url('../assets/fonts/roboto-v27-latin-regular.woff2') format('woff2'),
+            url('../assets/fonts/roboto-v27-latin-regular.woff') format('woff'),
+            url('../assets/fonts/roboto-v27-latin-regular.ttf') format('truetype'),
+            url('../assets/fonts/roboto-v27-latin-regular.svg#Roboto') format('svg');
+}   
+
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    background-color: #ededed;
+}
+
+.centerLimit {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;    
+}
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+@media only screen and (max-width: 868px) {
+    .centerLimit {
+        width: 100%;
+        margin: 0 auto;        
+    }
+}

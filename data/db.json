@@ -1,0 +1,10 @@
+{
+    "credenciais": [
+        { 
+            "id": 1,
+            "email": "teste@gmail.com", 
+            "token": "827ccb0eea8a706c4c34a16891f84e7b",
+            "statusText": "Login inválido"
+        }
+    ]
+}
