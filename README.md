@@ -1,1 +1,1 @@
-Pequeno projeto para treinar.
+Pequeno projeto em React.JS para treinar.
